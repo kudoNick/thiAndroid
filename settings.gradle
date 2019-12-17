@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Thi thiết kế giao diện Android'

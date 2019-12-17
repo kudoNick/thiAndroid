@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edtSKU"
+        android:inputType="number"
+        android:hint="SKU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtTacGia"
+        android:hint="Tác giả"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+   <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:id="@+id/tvNgay"
+           android:layout_width="279dp"
+           android:layout_height="wrap_content"
+           android:text="Ngày Xuất bản"
+           android:textSize="20dp" />
+       <Button
+           android:id="@+id/btnChonNgay"
+           android:text="Chọn ngày"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+   </LinearLayout>
+    <EditText
+        android:id="@+id/edtSoTrang"
+        android:inputType="number"
+        android:hint="Số Trang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtGia"
+        android:inputType="number"
+        android:hint="Giá"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edtGioiThieu"
+        android:hint="Giới thiệu sách"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnThemData"
+        android:text="Thêm data "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
